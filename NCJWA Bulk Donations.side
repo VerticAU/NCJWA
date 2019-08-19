@@ -1,0 +1,1430 @@
+{
+  "id": "94f9a7b8-17a2-4a74-af1d-e16169a47470",
+  "version": "2.0",
+  "name": "NCJWA Bulk Donations",
+  "url": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+  "tests": [{
+    "id": "47ab1f46-cd53-4870-9bb0-4704e505b036",
+    "name": "Invalid CC",
+    "commands": [{
+      "id": "3aae12d2-a384-4ca1-a942-27b81ac0fe42",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8d495d2-3d46-4464-8496-72f183e50e99",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06395d94-6364-4fc4-8df6-ff980dc850cd",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mr selen"
+    }, {
+      "id": "eb5daab8-276d-4e1e-a1a5-617b7b364d71",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__list:nth-child(2) .slds-media",
+      "targets": [
+        ["css=.slds-lookup__list:nth-child(2) .slds-media", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[4]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df9e14a0-4786-4faa-b427-143613d45c00",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-8064", "id"],
+        ["name=input-8064", "name"],
+        ["css=#strike-lookup-8064", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-8064']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e237b887-1633-48fa-b9e1-3b55f97cb89c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[4]/ul/li/span/div/span",
+      "targets": [
+        ["css=.slds-lookup__menu li:nth-child(1) .slds-lookup__result-meta", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c23783b-c28b-433a-8e98-9a46ef0e799a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [
+        ["id=input-82", "id"],
+        ["name=amount", "name"],
+        ["css=#input-82", "css:finder"],
+        ["xpath=//input[@id='input-82']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[5]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae885f8b-3f9b-4796-a2ed-00369a7a15bc",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [],
+      "value": "20"
+    }, {
+      "id": "ffcc5e7b-c418-4273-805d-b651a1fe6f38",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [
+        ["id=189:425;a", "id"],
+        ["css=#\\31 89\\3A 425\\;a", "css:finder"],
+        ["xpath=//select[@id='189:425;a']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[7]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[7]/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e103353-cf51-4354-81fe-4fd3a6e6d4df",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [],
+      "value": "index=3"
+    }, {
+      "id": "6c166c40-3d1e-4dfc-b224-0dd38fa051df",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/lightning-input/div/input",
+      "targets": [
+        ["id=input-151", "id"],
+        ["name=input-name", "name"],
+        ["css=#input-151", "css:finder"],
+        ["xpath=//input[@id='input-151']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6bb72443-63cf-463b-bf8d-77082e570cab",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/lightning-input/div/input",
+      "targets": [
+        ["id=input-151", "id"],
+        ["name=input-name", "name"],
+        ["css=#input-151", "css:finder"],
+        ["xpath=//input[@id='input-151']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": "4444444444444444"
+    }, {
+      "id": "07f3c784-5760-4a48-9e73-27cc0d3201bc",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[3]/div/div/div/select",
+      "targets": [
+        ["id=722:0", "id"],
+        ["css=#\\37 22\\3A 0", "css:finder"],
+        ["xpath=//select[@id='722:0']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[3]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div/select", "xpath:position"]
+      ],
+      "value": "label=02"
+    }, {
+      "id": "eb2d5724-592e-48f8-8bba-5b13e5248c27",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[4]/div/div/div/select",
+      "targets": [
+        ["id=765:0", "id"],
+        ["css=#\\37 65\\3A 0", "css:finder"],
+        ["xpath=//select[@id='765:0']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[4]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div/select", "xpath:position"]
+      ],
+      "value": "label=2021"
+    }, {
+      "id": "0c6f00d0-ff5c-4170-989b-9b673f494455",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save')]",
+      "targets": [
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/header/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44248fca-ffa4-4952-8767-b87d5cfa53d0",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Save Failed')]",
+      "targets": [
+        ["css=.toastMessage", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'The Donation has been successfully processed.')]", "xpath:innerText"]
+      ],
+      "value": "10000"
+    }]
+  }, {
+    "id": "7a4c36f6-f105-44c2-a2b3-8d03f3ee63d9",
+    "name": "Valid CC",
+    "commands": [{
+      "id": "0337a1ec-7464-4348-ae6d-8b89c48d304d",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "66a623f9-df01-43c5-8b6c-851338e3fc0b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5032e66f-cb58-4cf8-94ec-1feccf0c5ef3",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mr selen"
+    }, {
+      "id": "0e5a03b1-a9c2-4a61-b9be-bf38b608f380",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__list:nth-child(2) .slds-media",
+      "targets": [
+        ["css=.slds-lookup__list:nth-child(2) .slds-media", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[4]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ae37384-7216-40de-8425-7504ff887125",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-8064", "id"],
+        ["name=input-8064", "name"],
+        ["css=#strike-lookup-8064", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-8064']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b37b62f-c9c1-468e-9b41-1cbe3cf1a674",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[4]/ul/li/span/div/span",
+      "targets": [
+        ["css=.slds-lookup__menu li:nth-child(1) .slds-lookup__result-meta", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f4711f3-da0d-4473-ab69-1091dd9d0691",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [
+        ["id=input-82", "id"],
+        ["name=amount", "name"],
+        ["css=#input-82", "css:finder"],
+        ["xpath=//input[@id='input-82']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[5]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "859b5f16-9b25-498a-a186-924ec34f4263",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [],
+      "value": "20"
+    }, {
+      "id": "62c50cda-1b84-4961-a28b-126d670e8cdd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [
+        ["id=189:425;a", "id"],
+        ["css=#\\31 89\\3A 425\\;a", "css:finder"],
+        ["xpath=//select[@id='189:425;a']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[7]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[7]/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb5c1f52-f37e-4986-9150-ba5286f52028",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [],
+      "value": "index=3"
+    }, {
+      "id": "1be73ed0-9745-4471-ad78-e8f511f77c37",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/lightning-input/div/input",
+      "targets": [
+        ["id=input-151", "id"],
+        ["name=input-name", "name"],
+        ["css=#input-151", "css:finder"],
+        ["xpath=//input[@id='input-151']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66cb55b0-c46b-4a5d-84b9-78302176ea73",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/lightning-input/div/input",
+      "targets": [
+        ["id=input-151", "id"],
+        ["name=input-name", "name"],
+        ["css=#input-151", "css:finder"],
+        ["xpath=//input[@id='input-151']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": "4444333322221111"
+    }, {
+      "id": "ec82d238-992a-4d0f-bcf3-ccc9bce29335",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[3]/div/div/div/select",
+      "targets": [
+        ["id=722:0", "id"],
+        ["css=#\\37 22\\3A 0", "css:finder"],
+        ["xpath=//select[@id='722:0']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[3]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div/select", "xpath:position"]
+      ],
+      "value": "label=02"
+    }, {
+      "id": "c6e0993a-9dce-4f22-a323-c0d9e789c100",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[4]/div/div/div/select",
+      "targets": [
+        ["id=765:0", "id"],
+        ["css=#\\37 65\\3A 0", "css:finder"],
+        ["xpath=//select[@id='765:0']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[4]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div/select", "xpath:position"]
+      ],
+      "value": "label=2021"
+    }, {
+      "id": "8fdbd2dc-5a9c-4698-b33f-d32391a41f75",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save')]",
+      "targets": [
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/header/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b14ded96-5123-4937-bd52-f6280cf1a30e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.slds-theme--success",
+      "targets": [
+        ["css=.toastMessage", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'The Donation has been successfully processed.')]", "xpath:innerText"]
+      ],
+      "value": "10000"
+    }]
+  }, {
+    "id": "67f6650d-97d7-448b-a52c-978a046f8ede",
+    "name": "Cash",
+    "commands": [{
+      "id": "60873f90-feb2-48e5-b7a0-c7de0c00b0e0",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e9279100-ab0e-4903-8f40-880be816f8b0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f10d607-aa55-40c7-b4c0-795a6f84c87c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [],
+      "value": "mr selen"
+    }, {
+      "id": "ad1644d6-9366-48ea-b525-efc57af9905b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__list:nth-child(2) .slds-media",
+      "targets": [
+        ["css=.slds-lookup__list:nth-child(2) .slds-media", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[4]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a7e3d3e-02cb-4b5a-91bd-c23048077703",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-8064", "id"],
+        ["name=input-8064", "name"],
+        ["css=#strike-lookup-8064", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-8064']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a0aa3ef-d930-4805-a00d-b260941267de",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[4]/ul/li/span/div/span",
+      "targets": [
+        ["css=.slds-lookup__menu li:nth-child(1) .slds-lookup__result-meta", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff57494c-746f-44cc-b9e8-fbcc772f8785",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [
+        ["id=input-82", "id"],
+        ["name=amount", "name"],
+        ["css=#input-82", "css:finder"],
+        ["xpath=//input[@id='input-82']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[5]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d0d8714-a7d0-4169-882b-0a3e97af38cb",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [],
+      "value": "20"
+    }, {
+      "id": "58d91007-f912-4ab6-bb7b-e0a76e243e27",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [
+        ["id=189:425;a", "id"],
+        ["css=#\\31 89\\3A 425\\;a", "css:finder"],
+        ["xpath=//select[@id='189:425;a']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[7]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[7]/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "98300d4f-7c0c-4a7c-88d1-5a27bbca9aa5",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [],
+      "value": "index=1"
+    }, {
+      "id": "a799235a-16e3-4e01-b566-9068f10c4b0b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save')]",
+      "targets": [
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/header/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1a378cd-f3e0-4e14-8b8e-018f65c7620b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.slds-theme--success",
+      "targets": [
+        ["css=.toastMessage", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'The Donation has been successfully processed.')]", "xpath:innerText"]
+      ],
+      "value": "10000"
+    }]
+  }, {
+    "id": "f3f23614-d54b-49bc-9f3d-0d4c8cdf128f",
+    "name": "Cheque",
+    "commands": [{
+      "id": "8ee57f9c-e683-419b-8297-0e6deebf0580",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e6d6123-7dec-494e-a03b-01bd2bb94980",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f9a7099-75e1-4f01-b78c-6894bc198ecf",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mr selen"
+    }, {
+      "id": "4a757e89-1194-4a9d-94ef-8c22eff5251c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__list:nth-child(2) .slds-media",
+      "targets": [
+        ["css=.slds-lookup__list:nth-child(2) .slds-media", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[4]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1499cfe-7725-4a55-9da3-a9072f2d4429",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-8064", "id"],
+        ["name=input-8064", "name"],
+        ["css=#strike-lookup-8064", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-8064']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a58b666e-496d-440c-88ec-971b18d5b5ca",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[4]/ul/li/span/div/span",
+      "targets": [
+        ["css=.slds-lookup__menu li:nth-child(1) .slds-lookup__result-meta", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cab77bb7-cfeb-4fba-8cff-93683716d844",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [
+        ["id=input-82", "id"],
+        ["name=amount", "name"],
+        ["css=#input-82", "css:finder"],
+        ["xpath=//input[@id='input-82']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[5]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16b0a415-dd43-43e0-8d5f-736d441e1569",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [],
+      "value": "20"
+    }, {
+      "id": "435f1aa0-7583-4fe6-bbd9-cb165a62b52a",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-datepicker/div/div/input",
+      "targets": [
+        ["id=input-114", "id"],
+        ["css=#input-114", "css:finder"],
+        ["xpath=//input[@id='input-114']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[5]/lightning-input/lightning-datepicker/div/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-datepicker/div/div/input", "xpath:position"]
+      ],
+      "value": "31/07/2020"
+    }, {
+      "id": "a1f30d80-2f14-403b-8b96-daec92a9869b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [
+        ["id=189:425;a", "id"],
+        ["css=#\\31 89\\3A 425\\;a", "css:finder"],
+        ["xpath=//select[@id='189:425;a']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[7]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[7]/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c05e55a8-765e-47f0-a8d8-3cb35ef160c1",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [],
+      "value": "index=2"
+    }, {
+      "id": "882394f7-c7ea-45c3-ba19-2039d4c9d334",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-scrollable_y",
+      "targets": [
+        ["css=.slds-scrollable_y", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//article/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc6262e-585b-4257-9f2b-0b25c610774a",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/lightning-input/lightning-datepicker/div/div/input",
+      "targets": [
+        ["id=input-179", "id"],
+        ["css=#input-179", "css:finder"],
+        ["xpath=//input[@id='input-179']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/lightning-input/lightning-datepicker/div/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/lightning-input/lightning-datepicker/div/div/input", "xpath:position"]
+      ],
+      "value": "18/08/2019"
+    }, {
+      "id": "c41f6561-41f9-4747-bbaa-b4d2bc684f94",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/lightning-input/div/input",
+      "targets": [
+        ["id=input-148", "id"],
+        ["css=#input-148", "css:finder"],
+        ["xpath=//input[@id='input-148']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[3]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3643fa4-4e51-4e30-85b4-5670415fc963",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[3]/lightning-input/div/input",
+      "targets": [],
+      "value": "128492948503"
+    }, {
+      "id": "2940374d-42a8-44d3-941e-d2da673ba7f5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//tr[2]/td[4]/lightning-input/div/input",
+      "targets": [
+        ["id=input-173", "id"],
+        ["css=#input-173", "css:finder"],
+        ["xpath=//input[@id='input-173']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[4]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[4]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": "ddd"
+    }, {
+      "id": "44ba621c-bbbe-4fca-83a7-fcc78215a4cb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save')]",
+      "targets": [
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/header/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65af708d-9c47-468e-b2c9-4857ad7dbe8b",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.slds-theme--success",
+      "targets": [
+        ["css=.toastMessage", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'The Donation has been successfully processed.')]", "xpath:innerText"]
+      ],
+      "value": "12000"
+    }]
+  }, {
+    "id": "527259a5-3dcf-4410-8598-c068902d2dc9",
+    "name": "Expired CC",
+    "commands": [{
+      "id": "29e6aacd-7df9-4fb0-8e78-3171f045f799",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5787554d-9f4a-4851-b817-d08eb2e988d8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd2e4b9b-5749-4939-a1ed-552e08facdf7",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mr selen"
+    }, {
+      "id": "81645388-cc3c-40cd-b1c1-3e08f917e0c6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__list:nth-child(2) .slds-media",
+      "targets": [
+        ["css=.slds-lookup__list:nth-child(2) .slds-media", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[4]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5703706e-a8fa-42ab-a1eb-90637b88f12a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-8064", "id"],
+        ["name=input-8064", "name"],
+        ["css=#strike-lookup-8064", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-8064']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9419d8f1-2130-4134-8558-39c37bd27c03",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[4]/ul/li/span/div/span",
+      "targets": [
+        ["css=.slds-lookup__menu li:nth-child(1) .slds-lookup__result-meta", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ad3e0f3-02a1-4424-af1f-1847eaa60203",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [
+        ["id=input-82", "id"],
+        ["name=amount", "name"],
+        ["css=#input-82", "css:finder"],
+        ["xpath=//input[@id='input-82']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[5]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5883e349-6317-4eed-a347-6964f6161a5e",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [],
+      "value": "20"
+    }, {
+      "id": "723e3706-e18c-4a28-b578-0d953718ec79",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [
+        ["id=189:425;a", "id"],
+        ["css=#\\31 89\\3A 425\\;a", "css:finder"],
+        ["xpath=//select[@id='189:425;a']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[7]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[7]/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "37fcf300-95f0-4393-91a0-7c6d6db34650",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [],
+      "value": "index=3"
+    }, {
+      "id": "d21e3716-2f4b-4436-b8c8-8e98d80508d6",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/lightning-input/div/input",
+      "targets": [
+        ["id=input-151", "id"],
+        ["name=input-name", "name"],
+        ["css=#input-151", "css:finder"],
+        ["xpath=//input[@id='input-151']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "396c068e-cafc-4809-b61c-13c44b831c46",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/lightning-input/div/input",
+      "targets": [
+        ["id=input-151", "id"],
+        ["name=input-name", "name"],
+        ["css=#input-151", "css:finder"],
+        ["xpath=//input[@id='input-151']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": "4444333322221111"
+    }, {
+      "id": "ae3f5747-66fb-482b-a448-ee65f2953604",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[3]/div/div/div/select",
+      "targets": [
+        ["id=722:0", "id"],
+        ["css=#\\37 22\\3A 0", "css:finder"],
+        ["xpath=//select[@id='722:0']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[3]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div/select", "xpath:position"]
+      ],
+      "value": "label=01"
+    }, {
+      "id": "c49cc651-6299-480b-adad-e6f13acf864f",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[4]/div/div/div/select",
+      "targets": [
+        ["id=765:0", "id"],
+        ["css=#\\37 65\\3A 0", "css:finder"],
+        ["xpath=//select[@id='765:0']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[4]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div/select", "xpath:position"]
+      ],
+      "value": "label=2019"
+    }, {
+      "id": "27317f23-c2f6-449a-b55c-c26e3e15d104",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save')]",
+      "targets": [
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/header/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a2be65a-bc8e-4f27-aa77-03df6bb944b8",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//h2[contains(.,'Save Failed')]",
+      "targets": [
+        ["css=.toastMessage", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'The Donation has been successfully processed.')]", "xpath:innerText"]
+      ],
+      "value": "10000"
+    }]
+  }, {
+    "id": "818b3952-0a5a-4e49-a365-0a6a4b077ee1",
+    "name": "0 Amount Cash",
+    "commands": [{
+      "id": "74e5e025-ecf4-4aa8-9c71-f530518f712a",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cb91f5aa-2032-4fb5-87e5-b2116c7ff1eb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95696680-5f64-45c9-a2ea-fc6a0546f968",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "mr selen"
+    }, {
+      "id": "03676d6a-9e2b-4870-a15f-8c7d237a94c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__list:nth-child(2) .slds-media",
+      "targets": [
+        ["css=.slds-lookup__list:nth-child(2) .slds-media", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[4]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f292a124-e2b4-4672-a92e-5d76558373cf",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-8064", "id"],
+        ["name=input-8064", "name"],
+        ["css=#strike-lookup-8064", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-8064']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b44f6997-a6de-45fa-8120-df94d9427e85",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[4]/ul/li/span/div/span",
+      "targets": [
+        ["css=.slds-lookup__menu li:nth-child(1) .slds-lookup__result-meta", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8400d816-6274-416d-a94e-2489279d4de4",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [
+        ["id=input-82", "id"],
+        ["name=amount", "name"],
+        ["css=#input-82", "css:finder"],
+        ["xpath=//input[@id='input-82']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[5]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3551e3de-fb93-40b2-942c-9aa631d25c14",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [],
+      "value": "0"
+    }, {
+      "id": "37211e09-9720-4a8d-bea2-02ded3b0b3f1",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [
+        ["id=189:425;a", "id"],
+        ["css=#\\31 89\\3A 425\\;a", "css:finder"],
+        ["xpath=//select[@id='189:425;a']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[7]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[7]/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e15ba29-d767-4d2b-93a3-0c30ba823368",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [],
+      "value": "index=1"
+    }, {
+      "id": "714f404e-789e-4915-a3be-eb06f5bf3714",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save')]",
+      "targets": [
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/header/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "adda6f74-7e61-45c3-8e03-b9b550551816",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.slds-theme--error",
+      "targets": [
+        ["id=title_1739:0", "id"],
+        ["css=#title_1739\\3A 0", "css:finder"],
+        ["xpath=//h2[@id='title_1739:0']", "xpath:attributes"],
+        ["xpath=//div[2]/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Save Failed')]", "xpath:innerText"]
+      ],
+      "value": "10000"
+    }]
+  }, {
+    "id": "00caaf68-8110-491b-abe3-0017f091969f",
+    "name": "New Contact",
+    "commands": [{
+      "id": "58b6eadb-a2f7-47df-bac4-05d77cd9930b",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6fe871d-9cc4-4848-9049-499c63e9b546",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-5280", "id"],
+        ["name=input-5280", "name"],
+        ["css=#strike-lookup-5280", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-5280']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9463e5ee-ca55-49b0-98cb-aab9ae961a53",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__item-action--label",
+      "targets": [
+        ["css=.slds-lookup__item-action--label", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[4]/ul/li[9]/span", "xpath:idRelative"],
+        ["xpath=//li[9]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add New Contact')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aab27921-88b6-4635-8b4f-d71c5e969932",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[2]/lightning-input/div/input",
+      "targets": [],
+      "value": "Selenium2"
+    }, {
+      "id": "606d0725-f752-46d9-ab16-c5e8a87e0c7b",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//div[3]/lightning-input/div/input",
+      "targets": [],
+      "value": "Test2"
+    }, {
+      "id": "b058e97b-fcca-4b3a-b4b6-f858d20f9723",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/button[2]",
+      "targets": [
+        ["name=save", "name"],
+        ["css=.modal-footer > .slds-button_brand", "css:finder"],
+        ["xpath=//button[@name='save']", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "998b26e3-7f3a-4ec7-a473-1436e8159123",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "35000"
+    }, {
+      "id": "b9a4e918-71f2-42fa-961a-f71df030ec95",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "css=.slds-notify",
+      "targets": [
+        ["css=.slds-notify", "css:finder"],
+        ["xpath=//div[@id='content_721:0']/div/div[2]/form/lightning-messages/div/div", "xpath:idRelative"],
+        ["xpath=//lightning-messages/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e1492420-53f5-40d2-ad2b-1e901d1eccfc",
+    "name": "New Organization",
+    "commands": [{
+      "id": "c42b1426-f704-4f21-bd1a-67cd94211a84",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b907ceab-b789-40c4-9891-f7f6066e9586",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc6ab13b-56ff-4bdf-a5c8-8721cbe6bcff",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//select",
+      "targets": [],
+      "value": "index=2"
+    }, {
+      "id": "4c7f70b4-7586-4ae2-9d2b-3656e6701844",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-3602", "id"],
+        ["name=input-3602", "name"],
+        ["css=#strike-lookup-3602", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-3602']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f02cdb69-cbc2-455e-9e85-693f782a9737",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__item-action--label",
+      "targets": [
+        ["css=.slds-lookup__item-action--label", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[2]/div/div/div[4]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add New Organisation')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1fa4ed29-d039-4f0a-9c2c-346f76f8dcb8",
+      "comment": "",
+      "command": "pause",
+      "target": "xpath=//td[3]/div/div/div[2]/div/input",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "a4282362-ea1d-4a8d-bd81-1d5104f2275c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-input-field/lightning-input/div/input",
+      "targets": [],
+      "value": "Selenium"
+    }, {
+      "id": "0b0d190e-b66c-42b6-9158-a963f503407f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[3]/button[2]",
+      "targets": [
+        ["name=save", "name"],
+        ["css=.modal-footer > .slds-button_brand", "css:finder"],
+        ["xpath=//button[@name='save']", "xpath:attributes"],
+        ["xpath=//div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36a18a50-1100-4f56-a48e-392078160a79",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "89acf4ed-405a-4afe-b341-9c220e1a88a2",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//lightning-input-field/lightning-input/div/input",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0a76e67f-7120-459c-8852-108b66a9eba0",
+    "name": "Direct Deposit",
+    "commands": [{
+      "id": "243b76e1-b985-41af-9a72-f6fa7d219a41",
+      "comment": "",
+      "command": "open",
+      "target": "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c260d8c8-38c6-4b11-9fab-c93404be59db",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-1445", "id"],
+        ["name=input-1445", "name"],
+        ["css=#strike-lookup-1445", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-1445']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[3]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67790c53-9d6e-40a6-a7cb-7822b112ca9b",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/div/div/div[2]/div/input",
+      "targets": [],
+      "value": "mr selen"
+    }, {
+      "id": "19cbff6b-7852-4b39-9242-e04d87cf4529",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slds-lookup__list:nth-child(2) .slds-media",
+      "targets": [
+        ["css=.slds-lookup__list:nth-child(2) .slds-media", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[3]/div/div/div[4]/ul/li/span", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dcd31b09-a4a7-4b03-b818-ec3d57ab4e50",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[2]/div/input",
+      "targets": [
+        ["id=strike-lookup-8064", "id"],
+        ["name=input-8064", "name"],
+        ["css=#strike-lookup-8064", "css:finder"],
+        ["xpath=//input[@id='strike-lookup-8064']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb94fd9-371c-4654-a750-0ad32a960f2f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[3]/div/div/div[4]/ul/li/span/div/span",
+      "targets": [
+        ["css=.slds-lookup__menu li:nth-child(1) .slds-lookup__result-meta", "css:finder"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:idRelative"],
+        ["xpath=//td[4]/div/div/div[4]/ul/li/span/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1db2e1e2-90f7-4994-a126-b233a48e6234",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [
+        ["id=input-82", "id"],
+        ["name=amount", "name"],
+        ["css=#input-82", "css:finder"],
+        ["xpath=//input[@id='input-82']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[5]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//lightning-input/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5b5e42f-086f-4282-9477-06c5c8fbdf4c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//lightning-input/div/input",
+      "targets": [],
+      "value": "20"
+    }, {
+      "id": "00c44f81-0018-4533-b34a-5108dcada34b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [
+        ["id=189:425;a", "id"],
+        ["css=#\\31 89\\3A 425\\;a", "css:finder"],
+        ["xpath=//select[@id='189:425;a']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr/td[7]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//td[7]/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8822542f-bdd5-4085-b151-f734e8e3fdf0",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//td[6]/div/div/div/select",
+      "targets": [],
+      "value": "index=4"
+    }, {
+      "id": "4a99d6d8-ec64-4397-938b-fa5403e40c30",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//td[2]/lightning-input/div/input",
+      "targets": [
+        ["id=input-324", "id"],
+        ["css=#input-324", "css:finder"],
+        ["xpath=//input[@id='input-324']", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/div/div/div/div/div/div/table/tbody/tr[2]/td[2]/lightning-input/div/input", "xpath:idRelative"],
+        ["xpath=//td[2]/lightning-input/div/input", "xpath:position"]
+      ],
+      "value": "1234859475294"
+    }, {
+      "id": "5000f25d-fead-4380-9927-88cf52413de8",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//button[contains(.,'Save')]",
+      "targets": [
+        ["css=.slds-button_brand", "css:finder"],
+        ["xpath=(//button[@type='button'])[8]", "xpath:attributes"],
+        ["xpath=//div[@id='brandBand_1']/div/div/div/div/article/header/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Save')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "136edb04-e2c8-47e9-8345-a6d901f715ab",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.slds-theme--success",
+      "targets": [
+        ["css=.toastMessage", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'The Donation has been successfully processed.')]", "xpath:innerText"]
+      ],
+      "value": "10000"
+    }]
+  }],
+  "suites": [{
+    "id": "48103f23-964a-4839-b1b3-8a99e4d08103",
+    "name": "CC",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["47ab1f46-cd53-4870-9bb0-4704e505b036", "7a4c36f6-f105-44c2-a2b3-8d03f3ee63d9", "527259a5-3dcf-4410-8598-c068902d2dc9"]
+  }, {
+    "id": "1a1fe7a2-4adb-4252-8498-7507f4e70579",
+    "name": "Cash",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["818b3952-0a5a-4e49-a365-0a6a4b077ee1", "67f6650d-97d7-448b-a52c-978a046f8ede"]
+  }, {
+    "id": "a09bf2a4-a689-4030-8d13-c74435bae32a",
+    "name": "Add new",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["00caaf68-8110-491b-abe3-0017f091969f", "e1492420-53f5-40d2-ad2b-1e901d1eccfc"]
+  }, {
+    "id": "d92eb4ca-97c9-4762-834a-79c437cec211",
+    "name": "Cheque",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f3f23614-d54b-49bc-9f3d-0d4c8cdf128f"]
+  }, {
+    "id": "2f857aaa-5a9d-4150-93f6-201ce00aed0d",
+    "name": "Direct Deposit",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0a76e67f-7120-459c-8852-108b66a9eba0"]
+  }],
+  "urls": ["https://beyondblue--dev.lightning.force.com/", "https://beyondblue--dev.lightning.force.com/lightning/n/Bulk_Donations?0.source=alohaHeader", "https://ncjwavic--dev.lightning.force.com/lightning/n/Bulk_Donations"],
+  "plugins": []
+}
